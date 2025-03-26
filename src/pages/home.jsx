@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { About, Advantage, Header, BannerCatalog, TeaCard, Footer, TeaList } from "../widgets";
+import Button from "../shared/Button/Button";
 
 export const Home = () => {
     const [ items, setItems ] = useState([{
@@ -49,7 +50,9 @@ export const Home = () => {
                             <input name="price" type="text" className="w-full focus-within:outline-none border-2 px-2 bg-transparent border-[#232323] rounded-md" />
                         </label>
 
-                        <button type="submit" class="bg-[#2B322B] p-[5px] mt-[25px] w-full rounded-[10px] text-[#F5FEF0]">Добавить предмет</button>
+                        
+                        <Button type="submit" className="mt-[25px]"  width="w-full" height={'h-[35px]'}  text={'Добавить предмет'} />
+
                     </form>
                 </div>
             </div>

@@ -1,6 +1,7 @@
+import Button from "../../shared/Button/Button";
+
 export const TeaList = ({data, callback}) => {
-    console.log(data);
-    
+
     return (
         <>
         <div className='w-full flex justify-center mt-[50px] relative'>
@@ -47,7 +48,7 @@ export const TeaList = ({data, callback}) => {
                 </ul>
                 <div className='w-full flex justify-center mt-[50px] relative'>
                     <div className='w-full max-w-[1240px] flex items-center'>
-                        <button onClick={() => callback(prev => !prev)} class="bg-[#2B322B] p-[20px] rounded-[10px] text-[#F5FEF0]">Добавить предмет</button>
+                        <Button className={'justify-center p-[10px] '} onClick={() => callback(prev => !prev)}  width="w-[180px]" height={'h-[64px]'}  text={'Добавить предмет'} />    
                         <ul>
                             <li>
 

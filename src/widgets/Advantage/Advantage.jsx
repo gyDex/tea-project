@@ -29,7 +29,7 @@ export const Advantage = () => {
                         Витамины
                     </span>
 
-                    <img className="h-[100px] w-[100px] rounded-full"  src="/src/app/images/tea1.jpeg" alt="tea"/>
+                    <img className="h-[100px] w-[100px] rounded-full"  src="/src/app/images/tea2.jpeg" alt="tea"/>
 
                     <div className="z-[-1] absolute right-[120px] top-[50px] h-[250px] w-[2px] rotate-[125deg] bg-[#2B322B]">
                     </div>              
@@ -40,7 +40,7 @@ export const Advantage = () => {
                         Спокойствие
                     </span>
 
-                    <img className="h-[100px] w-[100px] rounded-full"  src="/src/app/images/tea1.jpeg" alt="tea"/>
+                    <img className="h-[100px] w-[100px] rounded-full"  src="/src/app/images/tea3.jpeg" alt="tea"/>
 
                     <div className="z-[-1] absolute left-[0px] top-[50px] h-[300px] w-[2px] rotate-[-128deg] bg-[#2B322B]">
                     </div>              
@@ -51,7 +51,7 @@ export const Advantage = () => {
                         Уникальная рецептура
                     </span>
 
-                    <img className="h-[100px] w-[100px] rounded-full"  src="/src/app/images/tea1.jpeg" alt="tea"/>
+                    <img className="h-[100px] w-[100px] rounded-full"  src="/src/app/images/tea4.jpeg" alt="tea"/>
 
                     <div className="z-[-1] absolute left-[80px] top-[50px] h-[315px] w-[2px] rotate-[-128deg] bg-[#2B322B]">
                     </div>              

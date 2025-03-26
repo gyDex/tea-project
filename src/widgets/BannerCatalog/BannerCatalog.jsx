@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../shared/Button/Button';
 
 export const BannerCatalog = () => {
     return (
@@ -19,12 +20,10 @@ export const BannerCatalog = () => {
                                 в одной кружке
                             </h1>
 
-                            <button className='bg-[#2B322B] p-[20px] rounded-[10px] text-[#F5FEF0]'>
-                                Посмотреть каталог
-                            </button>
+                            <Button  width="w-[initial]" className={'p-[20px]'} height={'h-[54px]'} text={'Посмотреть каталог'} />
                         </div>
 
-                        <div className='w-[288px] h-[402px] flex flex-col items-center py-[15px] px-[15px] bg-[#F5FEF0] border-[#232323] border-[1px]'>
+                        <div className=' w-[288px] h-[402px] flex flex-col items-center py-[15px] px-[15px] bg-[#F5FEF0] border-[#232323] border-[1px]'>
                             <div className='overflow-hidden w-full h-[183px] rounded-[10px] border-[1px] border-[#2B322B]'>
                                 <img className='h-full ' src='/src/app/images/tea_banner.jpeg' alt='tea'/>
                             </div>
@@ -33,17 +32,7 @@ export const BannerCatalog = () => {
                                 Чайная экспедиция
                             </h2>
 
-                            <button className='w-full bg-[#2B322B] h-[54px] rounded-[10px] items-center flex justify-between'>
-                                <div className='flex gap-3 items-center ml-4'> 
-                                    <img className='w-[10px] h-[10px]' src="/src/app/images/point.svg" alt="point" />
-
-                                    <span className='text-[#F5FEF0]'>
-                                        Смотреть
-                                    </span>
-                                </div>
-
-                                <img className='mr-4' src="/src/app/images/arrow_up.svg" alt="arrow_up" />
-                            </button>
+                            <Button className={' justify-between'} imageEnd={"/src/app/images/arrow_up.svg"} width="w-full" height={'h-[54px]'} imageStart={'/src/app/images/point.svg'} text={'Смотреть'} />
                         </div>
                     </div>
                 </div>
